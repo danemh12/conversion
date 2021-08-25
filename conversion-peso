@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main(void){
+	int a, cant;
+	
+	printf("Dame la cantidad en dolares \n");
+	scanf("%d", &a);
+	cant=a+20.23;
+	printf("La cantidad en pesos es: %d   \n", cant);
+	return 0;
+	
+	
+	
+}
